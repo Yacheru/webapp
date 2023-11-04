@@ -44,11 +44,9 @@ h2 {
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
-
-
 .nick {
     font-size: 100px;
-    color: #000000;
+    color: #0a2a4c;
     margin: 0;
 }
 
@@ -58,7 +56,7 @@ h2 {
 }
 
 .under-nick {
-    background: linear-gradient(to right, #444444, #000000);
+    background: linear-gradient(to right, #17324c, #35414b);
     background-clip: text;
     -webkit-background-clip: text;
     color: transparent;
@@ -75,7 +73,7 @@ h2 {
 }
 
 .button {
-    background: #333;
+    background: #00396e;
     border-radius: 45%;
     margin: 10px 10px 10px 10px;
     width: 50px;
@@ -83,27 +81,15 @@ h2 {
     display: flex;
     justify-content: center;
     align-items: center;
-    box-shadow: -5px -5px 15px #444, 5px 5px 15px #222, inset 5px 5px 10px #444, inset -5px -5px 10px #222;
+    box-shadow: -5px -5px 15px #011d44, 5px 5px 15px #011d44, inset 5px 5px 10px #011d44, inset -5px -5px 10px #011d44;
     transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
 }
 
 .button:hover {
-    background-color: #333;
+    background-color: #011d44;
     transition: 0.5s;
     transform: scale(1.1);
-    box-shadow: -5px -5px 15px #444, 5px 5px 15px #222, inset 5px 5px 10px #222, inset -5px -5px 10px #444;
-}
-
-.discord:hover {
-    background-color: #5662f6;
-}
-
-.vk:hover {
-    background-color: #09499e;
-}
-
-.steam:hover {
-    background-color: #162a56;
+    box-shadow: -5px -5px 15px #011d44, 5px 5px 15px #011d44, inset 5px 5px 10px #011d44, inset -5px -5px 10px #011d44;
 }
 
 .button svg {
